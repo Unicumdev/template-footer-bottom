@@ -1,0 +1,51 @@
+:root {
+  --silver: silver;
+  --black: black;
+  --teal: teal;
+  --light-cyan: light-cyan;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: var(--blue);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 25px;
+}
+
+header {
+  padding: 20px;
+  background-color: var(--teal);
+  border-bottom: 3px solid;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--silver);
+}
+
+footer {
+  padding: 20px;
+  color: var(--black);
+  background-color: var(--light-cyan);
+  border-top: 3px solid;
+}
